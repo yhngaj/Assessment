@@ -18,7 +18,6 @@ public class Assessment{
     
     // write a loop to get the product data, and store to corresponding array lists with objects inside
     while(scanner.hasNextLine()){
-      //ProductNumber++;
       line = scanner.nextLine();
       
       line = line.replaceAll("\\s","").replace("$","");
