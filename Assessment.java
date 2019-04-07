@@ -118,7 +118,7 @@ public class Assessment{
         SKUName.add(item);
         Quantity.add(1);
       }
-      System.out.print("Enter the SKU (directly press enter if finished): "); //get ready for the next item
+      System.out.print("Enter the SKU (directly press enter if finished): "); //get ready for scanning the next item
       item = input.nextLine();
     }
     
