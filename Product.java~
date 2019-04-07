@@ -1,0 +1,43 @@
+import java.util.*; //for the use of array list
+
+public class Product{
+  private String ;
+  private String name;
+  private double price;
+  
+  public Product(String ID, String name){
+    this.ID = ID;
+    this.name = name;
+    scoreList = new ArrayList<>();
+    numberOfStudent++;
+  }
+  
+  public String getID() {
+    return ID;
+  }
+  
+  public String getName() {
+    return name;
+  }
+  
+  public double getOverallScore() {
+    return overallScore;
+  }
+  
+  public static int getNumberOfStudent() {
+    return numberOfStudent;
+  }
+  
+  public ArrayList<Double> getScoreArrayList() {
+    return scoreList;
+  }
+  
+  public void setOverallScore(double score) {
+    overallScore = score;
+  }
+  
+  public void appendScoreList(double score) {
+    scoreList.add(score);
+  }
+  
+}

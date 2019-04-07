@@ -1,0 +1,3 @@
+| SKU   | Buy More than   | Discounted Price|
+| --------:| ---------:| ----------:|
+| ipd     | 4          | 499.99   |

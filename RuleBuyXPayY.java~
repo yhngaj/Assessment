@@ -1,0 +1,26 @@
+public class RuleBuyXPayY{
+  private String SKU;
+  private int BuyX;
+  private int PayY;
+  
+  public Product(String SKU, int BuyX, int PayY){
+    this.SKU = SKU;
+    this.BuyX = BuyX;
+    this.PayY = PayY;
+  }
+  
+  public String getSKU() {
+    return SKU;
+  }
+  
+  public int getBuyX() {
+    return BuyX;
+  }
+  
+  public int getPayY() {
+    return PayY;
+  }
+  
+
+  
+}

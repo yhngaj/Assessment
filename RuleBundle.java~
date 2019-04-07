@@ -1,0 +1,32 @@
+public class RuleBundle{
+  private String SKU1;
+  private int SKU1Quantity;
+  private String SKU2;
+  private int SKU2Quantity;
+  
+  public RuleBundle(String SKU1, int SKU1Quantity, String SKU2, int SKU2Quantity){
+    this.SKU1 = SKU1;
+    this.SKU1Quantity = SKU1Quantity;
+    this.SKU2 = SKU2;
+    this.SKU2Quantity = SKU2Quantity;
+  }
+  
+  public String getSKU1() {
+    return SKU1;
+  }
+  
+  public int SKU1Quantity() {
+    return SKU1Quantity;
+  }
+  
+  public String getSKU2() {
+    return SKU2;
+  }
+  
+  public int SKU2Quantity() {
+    return SKU2Quantity;
+  }
+  
+
+  
+}
